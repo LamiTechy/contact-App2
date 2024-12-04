@@ -40,8 +40,8 @@ function displayContact() {
         <td>${contactArray[i].user_email}</td>
         <td>${contactArray[i].phoneNo}</td>
         <td>
-          <button onclick="deleteContact(${i})">Delete</button>
-          <button onclick="editContact(${i})">Edit</button>
+          <button onclick="deleteContact(${i})" class="btn btn-danger">Delete</button>
+          <button onclick="editContact(${i})" class="btn btn-warning">Edit</button>
         </td>
       </tr>
     `;
